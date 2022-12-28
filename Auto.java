@@ -1,14 +1,14 @@
 public class Auto {
     public static void main(String[] args) {
-        Auto miauto= new Auto();
+        auto miauto = new auto();
         miauto.AgregarPuerta();
         System.out.println("Puertas del Auto: " + miauto.puertas);
 
     }
-    static class Auto {
+    static class auto {
         public int puertas = 2;
         public void AgregarPuerta() {
-             this.puertas++;
+            this.puertas++;
         }
     }
 }
