@@ -1,0 +1,7 @@
+inicio= 100
+final = 0
+
+
+while inicio>=final:
+    print ("cuenta regresiva: ", inicio)
+    inicio = inicio -1
