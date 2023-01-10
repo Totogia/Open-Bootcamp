@@ -1,0 +1,20 @@
+# Horario de trababajo= 8:00 a 16:00
+import time
+
+
+Hora_actual = time.localtime()
+Horario_Salida = 16
+hour= int (Hora_actual.tm_hour)
+min= int (Hora_actual.tm_min)
+Faltan_hour= 16 - hour
+Faltan_min= 60 - min
+
+
+
+
+
+
+if Hora_actual.tm_hour >= 8 <= 16 :
+    print ("Estoy trabajando","y", "faltan:",(Faltan_hour-1),":",Faltan_min, "min", "para salir" )
+else :
+    print(" No estoy trabajndo")
