@@ -1,0 +1,26 @@
+import pickle
+class veiculo:
+    marca = ""
+    modelo = 0
+    cilindrada = 0.0
+    puertas = 0
+
+    def __init__(self, marca, modelo, cilindrada, puertas) :
+        self.marca = marca
+        self.modelo = modelo
+        self.cilindrada = cilindrada
+        self.puertas = puertas
+    
+    def getMarca (self):
+        return self.marca
+
+V1 = veiculo ("Fiat", 2014, 1.4, 3)
+
+# serializar
+#with open('datos.dat', 'wb') as f:
+   # pickle.dump(V1, f)
+
+# deserializar
+#with open('datos.dat', 'rb') as f:
+ #   data = pickle.load(f)
+  #  print((data, type(data)))
