@@ -1,0 +1,20 @@
+if __name__ == '__main__':
+
+    print ("A continuacio escriba nombre de paises: ")
+    Pais1 = input ()
+    Pais2 = input ()
+    Pais3 = input ()
+    Pais4 = input ()
+    Pais5 = input ()
+    Pais6 = input ()
+ 
+    Paises = [Pais1.capitalize(), Pais2.capitalize(),Pais3.capitalize(), Pais4.capitalize(),Pais5.capitalize(), Pais6.capitalize()]
+    
+    Lista_Paises = []
+for sweet in Paises:
+  if sweet not in Lista_Paises:
+    Lista_Paises.append(sweet)
+
+Lista_Paises.sort()
+
+print(Lista_Paises)
